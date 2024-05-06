@@ -10,7 +10,7 @@ java spring boot によるwebapiの開発
 
 # スキーマの記法
 - 参考サイト
-  - https://spec.openapis.org/oas/v3.1.0.html#schema
+  - https://spec.openapis.org/oas/v3.0.0.html#schema
 - 各フィールドの型に合わせて、必要なフィールドを記述すること
 
 
