@@ -55,3 +55,6 @@ task buildSpringServer(type: org.openapitools.generator.gradle.plugin.tasks.Gene
 
 //compileJava タスクが実行される前に buildSpringServer タスクが完了していることを保証するためのもの
 compileJava.dependsOn tasks.buildSpringServer
+
+//生成されたインターフェースをimportするための設定
+sourceSets.main.java.srcDir "$buildDir/spring/src/main/java"
