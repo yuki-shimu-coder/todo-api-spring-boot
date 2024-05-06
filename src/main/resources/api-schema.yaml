@@ -2,6 +2,7 @@ openapi: 3.0.0
 info:
   title: java spring boot API開発練習
   version: "1.0.0"
+  description: TODOAPIのドキュメントです
 paths:
   /todo:
     get:
