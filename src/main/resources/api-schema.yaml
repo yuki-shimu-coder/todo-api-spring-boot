@@ -1,0 +1,10 @@
+openapi: 3.1.0
+info:
+  title: Simple User API
+  version: "1.0.0"
+paths:
+  /todo:
+    get:
+      responses:
+        '200':
+          description: OK
